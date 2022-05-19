@@ -1,0 +1,62 @@
+
+body{ 
+     background-color: rgb(144, 249, 255);
+}
+.header{
+    background-color:rgb(255, 109, 109);
+    height:40px;
+    text-align: left;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.subhead{
+    color:rgb(93, 0, 255);
+    font-size:24px;
+    font-style: italic;   
+    text-align: center;
+}
+#poke{
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 35px;
+    color:crimson;
+    font-size: 18px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin-left: 500px;
+    
+}
+#Search{
+    height: 43px;
+    width:100px;
+    margin-left: 20px;
+    color: brown;
+    font-size: 18px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+#Search:hover {
+    background-image: 
+    linear-gradient(to bottom right, rgb(1, 180, 1), yellow);
+}
+#pokemon{
+    text-align: start;
+    width:400px;
+    font-variant: normal;
+    font-size: 30px;
+    color:#0e16d7;
+    transform-style: preserve-3d;
+   background-color: rosybrown;
+   box-sizing: border-box;
+   border-radius: 10px;
+   margin-top: 20px;
+  margin-left: 500px;
+  
+}
+@media only screen and (max-width: 900px) {
+    #poke{
+        margin-left: 0px;
+    }
+    #pokemon{
+        margin-left: 0px;
+    }
+
+}
